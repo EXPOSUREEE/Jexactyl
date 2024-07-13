@@ -54,7 +54,7 @@ export default ({ className, titles }: RowProps) => {
             <ResourceBox
                 title={'Credits'}
                 description={'The amount of credits you have available.'}
-                icon={<Icon.DollarSign />}
+                icon={<Icon.Inr />}
                 amount={resources.balance}
             />
             <ResourceBox
