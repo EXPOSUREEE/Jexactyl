@@ -20,7 +20,7 @@ export default (props: BannerProps) => {
             <div className={'bg-gray-900 bg-opacity-75 text-center rounded-lg p-2 m-2 lg:mt-[40rem]'}>
                 <p className={'text-3xl text-gray-200'}>{props.title}</p>
                 {isExternalLink ? (
-                    <a href="https://expohost.in/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://expohost.in/renew-server/" target="_blank" rel="noopener noreferrer">
                         <Button className={'my-2 w-full lg:w-1/2'}>{props.action}</Button>
                     </a>
                 ) : (
